@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0" xml:space="preserve">
+    <value>Apple (c) Copyright 1767, Sir Isaac Newton.</value>
+  </data>
+  <data name="1" xml:space="preserve">
+    <value>If you can't make it good, make it LOOK good. - B Gates</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>Anything that is too stupid to be spoken can be sung.</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>As I said before, I never repeat myself.</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>As I was saying, I hate it when people don't finish their</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>Bank Rule: To get a loan, first prove you don't need it.</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>Batteries not included.</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>Be suspicious of all non-native-born Esperanto speakers.</value>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>Best way to keep your friends: don't give them away.</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>Blame Murphy when you dig at the wrong end of a rainbow.</value>
+  </data>
+  <data name="18" xml:space="preserve">
+    <value>But I thought YOU did the backups...</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>Can you open your mind without it falling out?</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>640K ought to be enough for anybody. -Bill Gates, 1981.</value>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>Computers are not intelligent.  They only think they are.</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>Consult with a real expert - Call your mother.</value>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>Cross-country skiing is great in small countries.</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>Data, data everywhere, and not a byte to eat.</value>
+  </data>
+  <data name="24" xml:space="preserve">
+    <value>Does the name Pavlov ring a bell?</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>Don't believe everything you hear or anything you say.</value>
+  </data>
+  <data name="26" xml:space="preserve">
+    <value>Don't try to have the last word.  You might get it.</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>Error: 015 - Unable to exit Windows. Try the door.</value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>Error: No Keyboard: Press F1 to Continue.</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>Every person you meet knows something you don't. Learn.</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>A clean, neat, and orderly desk is a sign of a sick mind.</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>Forget  RTFM  - Call the author at home.</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>Good fortune at times seems to favor the stupid.</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>Happiness: a combination of good health and a bad memory.</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>Hard work has never killed anyone, but why take a chance?</value>
+  </data>
+  <data name="34" xml:space="preserve">
+    <value>Hardware:  The parts of a computer that can be kicked.</value>
+  </data>
+  <data name="35" xml:space="preserve">
+    <value>Hi, I'm Chip. Micro Chip. Eight-o-three-eighty-six!</value>
+  </data>
+  <data name="36" xml:space="preserve">
+    <value>History doesn't repeat itself. Historians do.</value>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>I always laugh at the wrong time.  At my own funeral....</value>
+  </data>
+  <data name="38" xml:space="preserve">
+    <value>I cna ytpe 300 wrods pre mniuet.</value>
+  </data>
+  <data name="39" xml:space="preserve">
+    <value>I don't have the time for a hobby.  I have a computer.</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>A man who smiles when things go wrong knows who to blame.</value>
+  </data>
+  <data name="40" xml:space="preserve">
+    <value>I have a 5000000bps cable-modem and 1.5bps fingers.</value>
+  </data>
+  <data name="41" xml:space="preserve">
+    <value>I haven't lost my mind.  It must be backed up somewhere.</value>
+  </data>
+  <data name="42" xml:space="preserve">
+    <value>I just steal 'em, I don't explain 'em.</value>
+  </data>
+  <data name="43" xml:space="preserve">
+    <value>I just took an IQ test.  The results were negative.</value>
+  </data>
+  <data name="44" xml:space="preserve">
+    <value>I like to leave messages *before* the beep.</value>
+  </data>
+  <data name="45" xml:space="preserve">
+    <value>I need a drink...where's the SPACE BAR?</value>
+  </data>
+  <data name="46" xml:space="preserve">
+    <value>I'm user friendly, I don't byte -- I snap.</value>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>If A = B and B = C, then A = C, except where void.</value>
+  </data>
+  <data name="48" xml:space="preserve">
+    <value>If vegetarians eat vegetables,..beware of humanitarians!</value>
+  </data>
+  <data name="49" xml:space="preserve">
+    <value>It's certainly not my fault, I barely touched it.</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>aibohphobia, n., The fear of palindromes.</value>
+  </data>
+  <data name="50" xml:space="preserve">
+    <value>It's not a Bug, it's a hidden and seldom used feature.</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>It's not often I'm right, but I'm wrong this time.</value>
+  </data>
+  <data name="52" xml:space="preserve">
+    <value>Is OS/2 only half an operating system?</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>Join the army, meet interesting people, kill them.</value>
+  </data>
+  <data name="54" xml:space="preserve">
+    <value>Law of Window Cleaning:  It's always on the other side.</value>
+  </data>
+  <data name="55" xml:space="preserve">
+    <value>Monopolized cable service is all cable and no service.</value>
+  </data>
+  <data name="56" xml:space="preserve">
+    <value>Most of us hate to see a poor loser--or a rich winner.</value>
+  </data>
+  <data name="57" xml:space="preserve">
+    <value>My mind.  I can feel it.  I can feel it going. Goodbye.</value>
+  </data>
+  <data name="58" xml:space="preserve">
+    <value>Never accept a drink from a urologist.</value>
+  </data>
+  <data name="59" xml:space="preserve">
+    <value>Never buy a software package bigger than your head.</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>Alzheimer's Club: Meet the same new friend every day.</value>
+  </data>
+  <data name="60" xml:space="preserve">
+    <value>Never say "oops."</value>
+  </data>
+  <data name="61" xml:space="preserve">
+    <value>Never try this stunt on your own PC.</value>
+  </data>
+  <data name="62" xml:space="preserve">
+    <value>Oh no, not deja-vu again. Oh no, not deja-vu again. Oh no</value>
+  </data>
+  <data name="63" xml:space="preserve">
+    <value>Ok, now for a quick backu^L+b&amp;2PO^1+=.</value>
+  </data>
+  <data name="64" xml:space="preserve">
+    <value>On the other hand, you have different fingers.</value>
+  </data>
+  <data name="65" xml:space="preserve">
+    <value>Press Ctrl+R for reply, or &lt;ALT&gt;+F4 for an IQ test.</value>
+  </data>
+  <data name="66" xml:space="preserve">
+    <value>Press all the keys at once to continue...</value>
+  </data>
+  <data name="67" xml:space="preserve">
+    <value>Press any key to continue or any other key to quit.</value>
+  </data>
+  <data name="68" xml:space="preserve">
+    <value>Psst! Your .ZIP file is open.</value>
+  </data>
+  <data name="69" xml:space="preserve">
+    <value>Revenge is sweeter than life itself.  So think fools.</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>An optimist invented an airplane; a realist a parachute</value>
+  </data>
+  <data name="70" xml:space="preserve">
+    <value>Save the plankton - eat a whale.</value>
+  </data>
+  <data name="71" xml:space="preserve">
+    <value>Save the whales. Collect the whole set.</value>
+  </data>
+  <data name="72" xml:space="preserve">
+    <value>Say the secret word and this duck is yours.</value>
+  </data>
+  <data name="73" xml:space="preserve">
+    <value>Self-made man: A horrible example of unskilled labor.</value>
+  </data>
+  <data name="74" xml:space="preserve">
+    <value>Sharp wits, like sharp knives, often cut their owner.</value>
+  </data>
+  <data name="75" xml:space="preserve">
+    <value>Since GOD spelled backwards is DOG, is my poodle Satan?</value>
+  </data>
+  <data name="76" xml:space="preserve">
+    <value>Since she won't live forever, why give her a diamond?</value>
+  </data>
+  <data name="77" xml:space="preserve">
+    <value>Some are wise; others are otherwise....</value>
+  </data>
+  <data name="78" xml:space="preserve">
+    <value>Strength of mind: Person who can eat one salted peanut.</value>
+  </data>
+  <data name="79" xml:space="preserve">
+    <value>Take my advice...I'm not using it.</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>An optimist is a guy without much experience.</value>
+  </data>
+  <data name="80" xml:space="preserve">
+    <value>The best way to save face is to keep the lower part shut.</value>
+  </data>
+  <data name="81" xml:space="preserve">
+    <value>The city is not a concrete jungle.  It is a human zoo.</value>
+  </data>
+  <data name="82" xml:space="preserve">
+    <value>The universe is laughing behind your back.</value>
+  </data>
+  <data name="83" xml:space="preserve">
+    <value>VirusScan - "Mac OS X found: Remove it? (Y/y)"</value>
+  </data>
+  <data name="84" xml:space="preserve">
+    <value>Welcome to California.  Now please go home.</value>
+  </data>
+  <data name="85" xml:space="preserve">
+    <value>Where no man has.. where no ONE has.. to hell with it.</value>
+  </data>
+  <data name="86" xml:space="preserve">
+    <value>When all else fails, read the docs.</value>
+  </data>
+  <data name="87" xml:space="preserve">
+    <value>Volume in drive C is TOO LOUD</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>And God said: E = «mvý - Zeý/r, and there was light!</value>
+  </data>
+</root>
