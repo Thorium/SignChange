@@ -17,8 +17,11 @@ namespace SignatureChange
         public string MkSign(string s, string tag, string filetype)
         {
             int tagpos = s.IndexOf("...");
-            if (tagpos == -1)return s;
-            
+            if (tagpos == -1)
+            {
+                tagpos = s.IndexOf("…");
+                if (tagpos == -1) return s;
+            }
             string begin = s.Substring(0, tagpos);
             string end=string.Empty;
             if (filetype == ".txt"){ 
