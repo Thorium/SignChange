@@ -149,7 +149,7 @@
     <!-- <ManifestKeyFile>SignatureChange_TemporaryKey.pfx</ManifestKeyFile> -->
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>7E7646F602A829325E222790F34A1A41775A67E5</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>F1C22071E9F750A7D93F8A3D431AD86675B09C41</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!--
     This section specifies references for the project.
@@ -237,11 +237,15 @@
       <DependentUpon>SignatureAdd.Designer.xml</DependentUpon>
     </Compile>
     <AppDesigner Include="Properties\" />
+    <None Include="SignatureChange_TemporaryKey.pfx" />
     <!-- <None Include="SignatureChange_TemporaryKey.pfx" /> -->
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SignatureChange_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
